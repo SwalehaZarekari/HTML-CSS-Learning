@@ -1,4 +1,43 @@
-h1 {
 
-    color:blueviolet;
+/*universal selector*/
+*{
+   color:rgb(238, 130, 198); 
 }
+/*external css */
+h1 { 
+    color:palevioletred;
+}
+/*element selector*/
+
+p {
+     color:#051212;
+}
+/*id selector*/
+
+#headingone{
+    color:aqua;
+
+}
+#headingtwo{
+    color:blue;
+}
+/*class selector*/
+.heading
+{
+
+    color:rgb(255,0,0);
+}
+
+h2{
+    color:#051212;
+}
+
+#box{
+    background-color:rgb(56, 17, 42) ;
+    color:#f060bd;
+}
+
+button{
+    background-color: green;
+}
+
