@@ -2,9 +2,10 @@
 /*universal selector*/
 *{
    color:rgb(238, 130, 198); 
+   font-family: "Times New Roman";
 }
 /*external css */
-h1 { 
+#pp { 
     color:palevioletred;
 }
 /*element selector*/
@@ -39,5 +40,22 @@ h2{
 
 button{
     background-color: green;
+}
+
+/* text properties*/
+
+#ss{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration:black dotted underline;
+    color: darkgreen;
+}
+#outer{
+    font-size:25px ;
+
+}
+
+#inner{
+      font-size:10px;
 }
 
