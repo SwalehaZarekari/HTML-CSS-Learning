@@ -1,0 +1,46 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    font-size: 10px;
+    display: inline-block;
+    border:2px solid black;
+}
+
+#box{ 
+    width:30%;
+   background-color: cadetblue;
+   margin-left:10%;
+   font-size:2em;
+   width:5rem;
+   height:10vh;
+}
+
+#cube1{
+    position:static;
+    }
+#cube2{
+    position:relative;
+    top:10px;
+    right:10px;
+    z-index: 50;
+}
+#cube3{
+    position:sticky;
+    top:0px;
+    left:20px;
+    background-image: url("gedget.jpg");
+    background-size: cover;
+}
+#cube4{
+    position:fixed;
+    top:20px;
+    left:20px;
+
+}
+body{
+    background-image: url("deer.jpg");
+    background-size:cover;
+}
+
+

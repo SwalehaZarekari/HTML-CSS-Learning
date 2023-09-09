@@ -1,0 +1,15 @@
+div{
+    height:200px;
+    width:200px;
+    background-image: url("deer.jpg");
+    background-size:cover;
+    text-align: center;
+    border-radius:30px;
+    position: fixed;
+    right:0px;
+    top:40px;
+    }
+    body{
+        background-image: url("woow.jpg");
+        background-size: cover ;
+    }
