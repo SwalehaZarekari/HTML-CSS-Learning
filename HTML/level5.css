@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color:darkcyan;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    /*
+    transition-timing-function:steps(5);
+    transition-delay: 1s;
+    transform: rotate(180deg);
+    transform: scale(1);*/
+    position: absolute;
+    top:50px;
+    left: 200px;
+}
+div:hover{
+    background-color: darkred;
+    color:white;
+    
+    font-size:20px;/*
+    transform:scale(2,0.5);*/
+    /*
+    transform: translate(200px,200px);
+    */
+    transform:skew(90deg);
+}
+div:active{
+    background-color:blueviolet;
+    font-size: 5px;
+    transform: scale(0.5,2);
+}
