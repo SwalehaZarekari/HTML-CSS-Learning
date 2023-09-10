@@ -1,0 +1,36 @@
+
+#navbar{
+    background-color: rgb(255, 127, 232);
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+
+    display: inline-block;
+    background-color:purple;
+    
+}
+#outer{
+    height:300px;
+    width:300px;
+    background-color:darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#inner{
+    height:150px;
+    width:150px;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    font-style:italic;
+}

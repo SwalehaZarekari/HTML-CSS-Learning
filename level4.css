@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+
+
+}
+#container{
+    height:300px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    /*   flex-direction: row-reverse;........ right to left 
+    flex-direction: column;...... elemnts arrange top to bottom
+    flex-direction: column-reverse;.....elements arrange in bottom to top */
+/*
+    justify-content:flex-end;*/
+
+     justify-content:center ;
+     /*
+     justify-content: space-around;
+     justify-content: space-between; 
+     justify-content:space-evenly;......like hum jab horzontally shift krna ho tab use krte*/
+     
+     /*
+     flex-wrap: wrap;
+     align-items:flex-start;*/
+     /*
+    align-content:flex-start ....chipak ke;........... ...... we can say align generate space genrate nhi hone deta hai ye jab vertically shift krana hot o
+     align-content:flex-end;
+     */
+     }
+
+/* bcz of this outer box inner box  come in center*/
+body{
+    text-align: center;
+
+}
+
+#box1{
+    background-color: darkslategray;
+    flex-shrink:2;
+}
+#box2{
+    background-color:darkcyan;
+    height:75px;
+    /*
+    align-self: flex-end;.....SHIFT HONGA END MAI USKE LINE KE
+    align-self: flex-start;..... start mai aaenga'*/
+
+}
+#box3{
+    background-color : cornflowerblue;
+    height:200px;
+    flex-grow:2;
+}
+#box4{
+    background-color:forestgreen;
+    flex-shrink:3;
+
+}
+#box5{
+    background-color: darkgreen;
+}
