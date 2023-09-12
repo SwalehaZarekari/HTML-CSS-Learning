@@ -22,8 +22,8 @@ li{
     width:300px;
     background-color:darkslategray;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: center;/*inner box row ke center mai aaenga */
+    align-items:center; /*inner box column ke center mai aaenga */
 
 }
 #inner{
